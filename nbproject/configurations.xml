@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>average_distance.h</itemPath>
+      <itemPath>navigation.h</itemPath>
+      <itemPath>pod_distance.h</itemPath>
+      <itemPath>sea_area.h</itemPath>
+      <itemPath>structs.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>Resources/observers_1.txt</itemPath>
+      <itemPath>Resources/observers_2.txt</itemPath>
+      <itemPath>Resources/observers_3.txt</itemPath>
+      <itemPath>Resources/observers_4.txt</itemPath>
+      <itemPath>Resources/observers_5.txt</itemPath>
+      <itemPath>Resources/observers_6.txt</itemPath>
+      <itemPath>Resources/sightings_1.txt</itemPath>
+      <itemPath>Resources/sightings_2.txt</itemPath>
+      <itemPath>Resources/sightings_3.txt</itemPath>
+      <itemPath>Resources/sightings_4.txt</itemPath>
+      <itemPath>Resources/sightings_5.txt</itemPath>
+      <itemPath>Resources/sightings_6.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>CalculateAverages.c</itemPath>
+      <itemPath>FileReader.c</itemPath>
+      <itemPath>GetMammalLocation.c</itemPath>
+      <itemPath>PodFeature.c</itemPath>
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>3</standard>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
+            <linkerOptionItem>/aber/dap/cetaceans/libnavigation.a</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="CalculateAverages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="FileReader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="GetMammalLocation.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="PodFeature.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Resources/observers_1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="average_distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="navigation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pod_distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sea_area.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="CalculateAverages.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="FileReader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="GetMammalLocation.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="PodFeature.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Resources/observers_1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/observers_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_3.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_4.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_5.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Resources/sightings_6.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="average_distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="navigation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pod_distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sea_area.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="structs.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
